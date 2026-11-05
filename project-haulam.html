@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HAUlam — Amber Kaia J. Rebusa</title>
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body id="page-top" class="content-page project-detail-page">
+        <script>try { document.body.classList.toggle("dark-mode", localStorage.getItem("portfolio-theme") === "dark"); } catch {}</script>
+        <div id="progress"></div>
+        <div class="cursor-halo" id="halo"></div>
+        <nav aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Amber Kaia — home"
+                ><svg
+                    aria-hidden="true"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path
+                        d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"
+                    /></svg
+            ></a>
+            <div class="nav-actions">
+                <div class="nav-links" id="navlinks">
+                    <a href="about.html">ABOUT</a>
+                    <a href="projects.html" aria-current="page">PROJECTS</a>
+                    <a href="leadership.html">LEADERSHIP</a>
+                    <a href="certifications.html">CERTIFICATIONS</a>
+                    <a class="nav-contact" href="contact.html"
+                        >LET’S TALK</a
+                    >
+                </div>
+                <button
+                    class="menu-btn"
+                    id="menu"
+                    aria-label="Toggle navigation"
+                    aria-controls="navlinks"
+                    aria-expanded="false"
+                    ><span class="menu-lines" aria-hidden="true"><i></i><i></i></span
+                ></button>
+            </div>
+        </nav>
+        <button
+            class="theme-btn"
+            id="darkModeBtn"
+            type="button"
+            role="switch"
+            aria-checked="false"
+            aria-label="Dark mode"
+        >
+            <svg
+                class="theme-icon theme-sun"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+            >
+                <circle cx="12" cy="12" r="4" />
+                <path
+                    d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+                />
+            </svg>
+            <svg
+                class="theme-icon theme-moon"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z" />
+            </svg>
+        </button>
+        <main>
+            <section class="project-case-study" aria-labelledby="case-study-title">
+                <p class="project-breadcrumb"
+                    ><a href="projects.html">Projects</a
+                    ><span aria-hidden="true"> / </span>HAUlam</p
+                >
+                <div class="project-overview project-overview-simple">
+                    <div class="project-introduction">
+                        <p class="project-type">Campus food discovery · Mobile app</p>
+                        <h1 id="case-study-title">HAUlam</h1>
+                        <p class="project-role"><span>My role</span> UI/UX Development <span class="project-collaboration">Group project</span></p>
+                        <p class="project-summary">A mobile app that helps students discover food stalls at Holy Angel University. Users can browse stalls, search for dishes by name or category, and bookmark their favorites, with account sign-in and real-time stall data powered by Supabase.</p
+                        >
+                        <div class="project-actions"
+                            ><a class="project-action primary" href="#project-preview"
+                                >View preview ↓</a
+                            ><a
+                                class="project-action"
+                                href="https://github.com/hrspnd/HAUlam"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >View code on GitHub ↗</a
+                            ></div
+                        >
+                    </div>
+                </div>
+                <div class="project-preview-section" id="project-preview">
+                    <h2>Project preview</h2>
+                    <div class="project-phone-gallery">
+                        <figure class="project-phone-preview">
+                            <div class="project-phone-screen">
+                                <img src="assets/projects/haulam/stalls.png" alt="HAUlam explore stalls mobile UI design" width="393" height="852" loading="lazy" />
+                            </div>
+                            <figcaption>Explore stalls</figcaption>
+                        </figure>
+                        <figure class="project-phone-preview">
+                            <div class="project-phone-screen">
+                                <img src="assets/projects/haulam/dishes.png" alt="HAUlam browse dishes mobile UI design" width="393" height="852" loading="lazy" />
+                            </div>
+                            <figcaption>Browse dishes</figcaption>
+                        </figure>
+                        <figure class="project-phone-preview">
+                            <div class="project-phone-screen">
+                                <img src="assets/projects/haulam/search.png" alt="HAUlam search mobile UI design" width="393" height="852" loading="lazy" />
+                            </div>
+                            <figcaption>Search</figcaption>
+                        </figure>
+                        <figure class="project-phone-preview">
+                            <div class="project-phone-screen">
+                                <img src="assets/projects/haulam/bookmarks.png" alt="HAUlam bookmarks mobile UI design" width="393" height="852" loading="lazy" />
+                            </div>
+                            <figcaption>Bookmarks</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer-copyright"
+                >© 2026 Amber Kaia J. Rebusa<span class="footer-rights"
+                    >All rights reserved.</span
+                ></p
+            >
+        </footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>

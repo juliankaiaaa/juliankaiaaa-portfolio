@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Amber Kaia J. Rebusa — Portfolio</title>
+        <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body id="page-top" class="home-page">
+        <script>try { document.body.classList.toggle("dark-mode", localStorage.getItem("portfolio-theme") === "dark"); } catch {}</script>
+        <div id="progress"></div>
+        <div class="cursor-halo" id="halo"></div>
+        <nav aria-label="Main navigation">
+            <a class="brand" aria-current="page" href="index.html" aria-label="Amber Kaia — home"
+                ><svg
+                    aria-hidden="true"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path
+                        d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"
+                    /></svg
+            ></a>
+            <div class="nav-actions">
+                <div class="nav-links" id="navlinks">
+                    <a href="about.html">ABOUT</a>
+                    <a href="projects.html">PROJECTS</a>
+                    <a href="leadership.html">LEADERSHIP</a>
+                    <a href="certifications.html">CERTIFICATIONS</a>
+                    <a class="nav-contact" href="contact.html"
+                        >LET’S TALK</a
+                    >
+                </div>
+                <button
+                    class="menu-btn"
+                    id="menu"
+                    aria-label="Toggle navigation"
+                    aria-controls="navlinks"
+                    aria-expanded="false"
+                    ><span class="menu-lines" aria-hidden="true"><i></i><i></i></span
+                ></button>
+            </div>
+        </nav>
+        <button
+            class="theme-btn"
+            id="darkModeBtn"
+            type="button"
+            role="switch"
+            aria-checked="false"
+            aria-label="Dark mode"
+        >
+            <svg
+                class="theme-icon theme-sun"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+            >
+                <circle cx="12" cy="12" r="4" />
+                <path
+                    d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"
+                />
+            </svg>
+            <svg
+                class="theme-icon theme-moon"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z" />
+            </svg>
+        </button>
+        <main>
+            <section class="hero" id="top">
+                <div class="section-atmosphere" aria-hidden="true"><i></i><i></i></div>
+                <div class="noise"></div>
+                <div class="grid-lines"></div>
+                <div class="floating-details" aria-hidden="true">
+                    <span class="float-detail detail-heart"></span>
+                    <span class="float-detail detail-star"></span>
+                    <span class="float-detail detail-spark"></span>
+                </div>
+                <div class="orb one"></div>
+                <div class="orb two"></div>
+                <div class="orb three"></div>
+                <div class="hero-content">
+                    <p class="hero-greeting">Hi, I’m</p>
+                    <h1 aria-label="Amber Kaia"
+                        ><span class="name-line" aria-hidden="true">AMBER KAIA</span></h1
+                    >
+                    <p class="hero-sub">
+                        <span class="university">Holy Angel University · BS Computer Science</span>
+                    </p>
+                    <div class="hero-actions"
+                        ><a class="pill solid magnetic" href="projects.html"
+                            >VIEW MY WORK</a
+                        ><a class="pill" href="assets/documents/REBUSA_AmberKaia_CV.pdf" download="Amber_Kaia_Rebusa_CV.pdf"
+                            >DOWNLOAD CV</a
+                        >
+                        <div class="hero-socials">
+                            <a
+                                class="pill linkedin-button"
+                                href="https://www.linkedin.com/in/ajrebusa"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Visit Amber Kaia on LinkedIn"
+                                title="LinkedIn"
+                            >
+                                <svg
+                                    aria-hidden="true"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                >
+                                    <path
+                                        d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.3 10.85H15.8v-4.64c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.72H9.51V9.2h2.83v1.3h.04c.39-.74 1.36-1.52 2.8-1.52 2.99 0 3.55 1.97 3.55 4.53v5.24Z"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="film" id="film">
+                    <div class="film-frame">
+                        <img src="assets/photo.jpeg" alt="Portrait of Amber Kaia J. Rebusa" />
+                        <div class="film-label">PHOTO 01 / AMBER KAIA</div>
+                    </div>
+                    <div class="film-frame">
+                        <img
+                            src="assets/photo.jpeg"
+                            alt="Close-up portrait of Amber Kaia J. Rebusa"
+                        />
+                        <div class="film-label">PHOTO 02 / AMBER KAIA</div>
+                    </div>
+                </div>
+                <div class="floating-sticker">MADE<br />WITH LOVE<br />✳</div>
+                <a class="scroll-note" href="about.html">MORE ABOUT ME ↗</a>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer-copyright"
+                >© 2026 Amber Kaia J. Rebusa<span class="footer-rights"
+                    >All rights reserved.</span
+                ></p
+            >
+        </footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>
