@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <title>Dubai chewy cookie</title>
-  <path d="M32 3C15 3 3 16 3 32s12 29 29 29 29-13 29-29S49 3 32 3Z" fill="#3e2723"/>
-  <path d="M31 7C17 7 7 18 7 32s10 25 24 25c-8-9-10-17-8-25 2-9 8-16 8-25Z" fill="#684034"/>
-  <path d="M33 9c10 2 18 10 20 21 2 10-3 20-12 24l-9-7-5-10 2-13Z" fill="#b4be68" stroke="#291c18" stroke-width="3" stroke-linejoin="round"/>
-  <path d="m36 17 7 4m-10 6 11 3m-12 7 10 3m-5 7 8-2m1-18 4 7" fill="none" stroke="#747d39" stroke-width="3" stroke-linecap="round"/>
-  <path d="m36 23 5-3m-8 13 7-2m-6 11 6-1" fill="none" stroke="#e4d28b" stroke-width="2" stroke-linecap="round"/>
-  <path d="m15 22 4 2m-6 12 4 1m1 10 4 2m0-34 2 1" stroke="#35231e" stroke-width="4" stroke-linecap="round"/>
-</svg>
